@@ -1,24 +1,13 @@
-# README
+# DevProjects - Road trip planner
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is an open source project from [DevProjects](http://www.codementor.io/projects). Feedback and questions are welcome!
+Find the project requirements here: [Road trip planner](https://www.codementor.io/projects/web/road-trip-planner-ce2l7lxjrm)
 
-Things you may want to cover:
+## Tech/framework used
 
-* Ruby version
+## Screenshots and demo
 
-* System dependencies
+## Installation
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
