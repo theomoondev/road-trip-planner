@@ -1,6 +1,5 @@
 class JourneysController < ApplicationController
   # before_action :require_user
-  
   def index
     # @journeys = @journeys.where(user_id: current_user.id) if logged_in?
     @journeys = Journey.all

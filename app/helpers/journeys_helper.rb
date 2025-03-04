@@ -1,2 +1,2 @@
-module JourneysHelper    
+module JourneysHelper
 end
