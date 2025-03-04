@@ -10,7 +10,7 @@ Rails.application.routes.draw do
   # get "service-worker" => "rails/pwa#service_worker", as: :pwa_service_worker
 
   # Defines the root path route ("/")
-  # root "posts#index"
+  root "journeys#index"
 
   get "/destinations", to: "destinations#index", as: :destinations
   get "/destinations/:id", to: "destinations#show", as: :destination
@@ -18,7 +18,7 @@ Rails.application.routes.draw do
   patch "/destinations/:id", to: "destinations#update"
   delete "/destinations/:id", to: "destinations#destroy"
 
-  get "/journeys", to: "journeys#index", as: :destinations
+  get "/journeys", to: "journeys#index", as: :journeys
   get "/journeys/:id", to: "journeys#show", as: :journey
   post "/journeys", to: "journeys#create"
   patch "/journeys/:id", to: "journeys#update"

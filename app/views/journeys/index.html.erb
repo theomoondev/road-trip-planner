@@ -1,0 +1,16 @@
+<h1>Journeys</h1>
+<div id="journeys">
+    <% @journeys.each do |journey| %>
+        <div class="journey">
+            <h2><%= journey.name %></h2>
+            <p><%= journey.description %></p>
+            <p>Distance: <%= journey.distance %></p>
+            <p>Start Date: <%= journey.start_date %></p>
+            <p>End Date: <%= journey.end_date %></p>
+            <p>Duration: <%= journey.duration %></p>
+            <p>Budget: <%= journey.budget %></p>
+            <p>Created At: <%= journey.created_at %></p>
+            <p>Updated At: <%= journey.updated_at %></p>
+        </div>
+    <% end %>
+</div>
